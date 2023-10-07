@@ -56,7 +56,7 @@ def main():
         prediction.append([i,getNextNRecommendation(best_rcsys,i,10,user_item_table)])
     prediction_output = pd.DataFrame(prediction, columns=['User_ID', 'Predicted_Item_ID'])
 
-    prediction_output.to_csv('../final_data/prediction_output.csv',index=False)
+    prediction_output.to_csv('final_data/prediction_output.csv',index=False)
 
 if __name__ == '__main__':
     main()

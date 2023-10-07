@@ -5,8 +5,8 @@ import altair as alt
 import main
 from sklearn.preprocessing import LabelEncoder
 
-img_path = '../images/'
-dta_path = '../final_data/'
+img_path = 'images/'
+dta_path = 'final_data/'
 # Functions
 
 def importpredresult():
